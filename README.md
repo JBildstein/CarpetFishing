@@ -12,19 +12,21 @@ If you don't want your PHB (Pointy Haired Boss) to know that you are playing a g
 
 ### Standard Arguments
 There are a few arguments you can set:
-|Argument|Description|
-|--------|-----------|
-|-h      |  Prints the help message. Combined with a game mode, it might look different.|
-|-n      |  Enables notifications. By default it uses `Console.Beep()` but it can be overridden by each `GameData` implementations.|
-|-t[m]   |  Sets the time to wait between results in minutes. Example: "-t5". This value can also be set in-game.|
-|-g[x,y] |   Sets the grid size. Example: "-g5,5". This value can also be set in-game.|
+
+| Argument | Description |
+| -------- | ----------- |
+| -h       | Prints the help message. Combined with a game mode, it might look different. |
+| -n       | Enables notifications. By default it uses `Console.Beep()` but it can be overridden by each `GameData` implementations. |
+| -t[m]    | Sets the time to wait between results in minutes. Example: "-t5". This value can also be set in-game. |
+| -g[x,y]  | Sets the grid size. Example: "-g5,5". This value can also be set in-game. |
 
 ### Game Mode Arguments
 By default there are only two game modes. You can add more by implementing your own `GameData` class. See "Expanding" for more information.
-|Argument|Description|
-|--------|-----------|
-|-f      | Standard Carpet Fishing game mode. This is also the default if no parameter is given.|
-|-d      | Data Collection Tool game mode. It looks like a tool that is collection some ominous data. Use it to hide that you are playing a game.|
+
+| Argument | Description |
+| -------- | ----------- |
+| -f       | Standard Carpet Fishing game mode. This is also the default if no parameter is given. |
+| -d       | Data Collection Tool game mode. It looks like a tool that is collection some ominous data. Use it to hide that you are playing a game. |
 
 ## Expanding
 
@@ -67,10 +69,11 @@ If you set the "-h" argument together with a game mode argument, the help can ch
 * If `OmitHowTo` is set to true, the How To messages will not be shown.
 
 Additionally you can override these two methods:
-|Method       |Description|
-|-------------|-----------|
-|Init         | Will be called before the game begins. It gets all provides arguments passed so you can define your own game configurations.|
-|Notification | Will be called after each result if the "-n" argument is given. By default it calls `Console.Beep()`.|
+
+| Method        | Description |
+| ------------- | ----------- |
+| Init          | Will be called before the game begins. It gets all provides arguments passed so you can define your own game configurations. |
+| Notification  | Will be called after each result if the "-n" argument is given. By default it calls `Console.Beep()`. |
 
 ## What's the Point
 Well, to be honest there is none really. This was written just for fun and nothing else.
