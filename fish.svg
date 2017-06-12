@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGRoot" width="64px" height="64px" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect x="23.198" y="2" width="38.802" height="38.802" fill="#799ea7"/>
+  <path d="m1.2772 40.802h21.92v21.92" fill="#799ea7"/>
+  <circle cx="45.697" cy="8.1386" r="3.7123" fill="#3e3e3e"/>
+  <circle cx="46.315" cy="6.4592" r=".61872" fill="#fff"/>
+ </g>
+</svg>

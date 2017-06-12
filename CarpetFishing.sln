@@ -1,12 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpetFishing", "CarpetFishing\CarpetFishing.csproj", "{8F7D2164-8081-4777-BDE4-388EEE8A4500}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{788279CB-7735-4296-B781-5855859EB15E}"
 	ProjectSection(SolutionItems) = preProject
+		fish.svg = fish.svg
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
