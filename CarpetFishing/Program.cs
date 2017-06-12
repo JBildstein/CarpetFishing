@@ -56,12 +56,6 @@ namespace CarpetFishing
         private static bool CheckArgs(string[] args)
         {
             if (args == null) return false;
-            else if (args.Length == 0)
-            {
-                WriteHelp();
-                return false;
-            }
-            else
             {
                 bool showHelp = false;
 
